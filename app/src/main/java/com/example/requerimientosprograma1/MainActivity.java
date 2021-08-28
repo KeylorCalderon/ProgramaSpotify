@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Siguiente(View view){
-        Intent pasar=new Intent(this, ConectarSpotify.class);
-        startActivity(pasar);
+        Intent siguiente=new Intent(this, ConectarSpotify.class);
+        startActivity(siguiente);
     }
 }
