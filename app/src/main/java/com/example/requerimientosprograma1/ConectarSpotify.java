@@ -94,7 +94,7 @@ public class ConectarSpotify extends AppCompatActivity {
     }
 
     private void startMainActivity() {
-        Intent newintent = new Intent(ConectarSpotify.this, MainActivity.class);
-        startActivity(newintent);
+        Intent newIntent = new Intent(ConectarSpotify.this, MainActivity.class);
+        startActivity(newIntent);
     }
 }
