@@ -1,2 +1,3 @@
+include ':spotifyApp'
 include ':app'
 rootProject.name = "RequerimientosPrograma1"
